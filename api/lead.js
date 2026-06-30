@@ -55,7 +55,7 @@ export default async function handler(req, res) {
         email_address: email,
         first_name: name || '',
         fields: {
-          'Quiz Results': quizResultsText
+          'quiz_results': quizResultsText
         }
       })
     });
